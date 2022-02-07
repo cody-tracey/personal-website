@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
 const App = () => {
   return (
-    <div className='mt-5'>
+    <div style={{'margin-top':'40vh'}}>
       <Container>
         <Row>
           <Col>
