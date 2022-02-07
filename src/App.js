@@ -1,15 +1,16 @@
-import { Container, Row, Col } from 'react-bootstrap'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./Components/Landing/landing";
+import Login from "./Components/Login/login";
+
 const App = () => {
   return (
-    <div style={{'margin-top':'40vh'}}>
-      <Container>
-        <Row>
-          <Col>
-            <h1>Thank you for your interest in my page, it is currently under construction and will be up soon!</h1>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Landing/>} /> 
+        <Route path='/login' element={<Login/>} /> 
+        
+      </Routes>
+    </Router>
 
   );
 }
