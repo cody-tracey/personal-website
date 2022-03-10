@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #fff952;
+$dark: #343a40;
+
+body {
+  background-image: url(../assets/images/background2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: $primary;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.main {
+  opacity: 0.95;
+  background-color: $dark;
+}
+
+.drop {
+  margin-top: 40vh;
+}
