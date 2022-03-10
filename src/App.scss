@@ -1,13 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
-
-$primary: #fff952;
-$dark: #343a40;
+@import "./Partials/constants";
 
 body {
   background-image: url(../assets/images/background2.jpg);
   background-size: cover;
   background-attachment: fixed;
-  color: $primary;
+  color: $main-brand;
 }
 
 code {
@@ -16,7 +14,7 @@ code {
 
 .main {
   opacity: 0.95;
-  background-color: $dark;
+  background-color: $dark-shade;
 }
 
 .drop {
