@@ -12,7 +12,7 @@ const Bio = () => {
                 <Row>
                     <Col>
                         <img src={profile}  alt='Cody Tracey - Developer Extraordinaire' className='profile-pic'/>
-                        <p>My name is Cody Tracey, and thank you for taking the time to view my
+                        <p className='bio'> My name is Cody Tracey, and thank you for taking the time to view my
                         portfolio. I am originally from the Chicagoland area but moved to
                         Nasvhille 4 years ago after graduating college. I attended Carthage
                         College in Kenosha, WI where I double majored in Classical Studies and
