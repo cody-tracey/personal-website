@@ -11,21 +11,15 @@ const Bio = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <img src={profile}  alt='Cody Tracey - Developer Extraordinaire' className='profile-pic'/>
-                        <p className='bio'> My name is Cody Tracey, and thank you for taking the time to view my
-                        portfolio. I am originally from the Chicagoland area but moved to
-                        Nasvhille 4 years ago after graduating college. I attended Carthage
-                        College in Kenosha, WI where I double majored in Classical Studies and
-                        Religious Studies and was a part of a number of professional and
-                        social organizations such as: Theta Alpha Kappa, Eta Sigma Phi, and
-                        Model United Nations.
-                        <br />
-                        After graduating I worked as a project manager at Card Marketing Services (CMS), while attendingthe Vanderbilt/Trilogy Education Full Stack Web
-                        Developing Bootcamp, upon completetion I obtained a job working as a coding instructor as part of the <a href="perseverenow.org" tagret="_blank">Persevere Program</a>.
-                        <br />
-                        I am proficient in: HTML5, CSS3, JavaScript, jQuery, Bootstrap, NodeJS, MySQL, MongoDB, MySQL, Express, ReactJS.
+                        <img src={profile} alt='Cody Tracey - Developer Extraordinaire' className='profile-pic' />
+                        <p className='bio'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Fermentum et sollicitudin ac orci phasellus egestas. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Auctor eu augue ut lectus. Nec nam aliquam sem et tortor consequat id porta. Blandit aliquam etiam erat velit scelerisque in. Pretium quam vulputate dignissim suspendisse in. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Venenatis lectus magna fringilla urna. Turpis tincidunt id aliquet risus feugiat in ante. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Mauris cursus mattis molestie a. Amet dictum sit amet justo. Commodo nulla facilisi nullam vehicula ipsum a.
+                            <br />
+                            Aliquet porttitor lacus luctus accumsan tortor posuere. At consectetur lorem donec massa sapien faucibus. Fringilla ut morbi tincidunt augue interdum. Et molestie ac feugiat sed lectus vestibulum mattis. Duis at consectetur lorem donec. Felis imperdiet proin fermentum leo vel orci. Lacus luctus accumsan tortor posuere ac. Diam vel quam elementum pulvinar etiam non. Curabitur gravida arcu ac tortor dignissim convallis. Quam vulputate dignissim suspendisse in est ante in.
+                            <br />
+                            Nunc sed blandit libero volutpat. Nec ullamcorper sit amet risus nullam. Ut consequat semper viverra nam. Felis eget velit aliquet sagittis id consectetur. Elit duis tristique sollicitudin nibh sit amet commodo nulla. Fringilla urna porttitor rhoncus dolor purus non enim. Sapien pellentesque habitant morbi tristique senectus et netus. Erat velit scelerisque in dictum non consectetur. At lectus urna duis convallis convallis tellus. Ligula ullamcorper malesuada proin libero nunc consequat interdum. Laoreet suspendisse interdum consectetur libero id. Id diam maecenas ultricies mi eget mauris.
                         </p>
-                        </Col>
+                    </Col>
                 </Row>
             </Container>
         </div>
