@@ -10,10 +10,10 @@ const Bio = () => {
                     <u><h1>About Me</h1></u>
                 </Row>
                 <Row>
-                    <Col s={12} md={4} l={4} xl={4}>
+                    <Col s={12} md={5} l={4} xl={4}>
                         <img src={profile} alt='Cody Tracey - Developer Extraordinaire' className='img-fluid' id="profile-pic" />
                     </Col>
-                    <Col s={12} md={8} l={8} xl={8}>
+                    <Col s={12} md={7} l={8} xl={8}>
                         <p className='bio'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Fermentum et sollicitudin ac orci phasellus egestas. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Auctor eu augue ut lectus. Nec nam aliquam sem et tortor consequat id porta. Blandit aliquam etiam erat velit scelerisque in. Pretium quam vulputate dignissim suspendisse in. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Venenatis lectus magna fringilla urna. Turpis tincidunt id aliquet risus feugiat in ante. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Mauris cursus mattis molestie a. Amet dictum sit amet justo. Commodo nulla facilisi nullam vehicula ipsum a.
                             <br />

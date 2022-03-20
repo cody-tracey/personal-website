@@ -25,13 +25,30 @@ code {
   margin-top: 20vh;
 }
 
-#profile-pic{
+//Landing Page
+
+// .tagline{
+//   justify-items: center;
+// }
+
+.links {
+  color: $light-shade;
+  font-size: 5vh;
+  text-decoration: none;
+}
+.links:hover {
+  color: $light-accent;
+  text-decoration: underline;
+}
+
+// Bio Page
+#profile-pic {
   justify-content: center;
   opacity: 1;
   border-radius: 25%;
   margin-right: 1vw;
 }
 
-.bio{
+.bio {
   text-align: justify;
 }
