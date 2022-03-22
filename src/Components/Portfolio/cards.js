@@ -1,17 +1,14 @@
 import { Card, Button } from "react-bootstrap";
 const Cards = props => {
     return (
-        <Card>
+        <Card className='card-override mt-2 mb-2'>
             <Card.Body >
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Img variant="top" src={props.pic} />
-                <Card.Link href={props.github}>
-                    <Button variant="primary">Inspect the code!</Button>
-                </Card.Link>
-                {props.deployed} ?
-                <Card.Link href={props.deployed}>
-                    <Button variant="primary">Deployed!</Button>
-                </Card.Link> : ""
+                <div className="d-grid gap-2 pt-2">
+                    <Button variant="secondary" href={props.github} blockl>Inspect the code!</Button>
+                    {props.deployed ? <Button variant="secondary" href={props.deployed} block>Deployed!</Button> : ""}
+                </div>
             </Card.Body>
         </Card>
 
