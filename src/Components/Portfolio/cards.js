@@ -6,8 +6,8 @@ const Cards = props => {
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Img variant="top" src={props.pic} />
                 <div className="d-grid gap-2 pt-2">
-                    <Button variant="secondary" href={props.github} blockl>Inspect the code!</Button>
-                    {props.deployed ? <Button variant="secondary" href={props.deployed} block>Deployed!</Button> : ""}
+                    <Button variant="secondary" href={props.github} target="_blank" >Inspect the code!</Button>
+                    {props.deployed ? <Button variant="secondary" href={props.deployed} target="_blank">Deployed!</Button> : ""}
                 </div>
             </Card.Body>
         </Card>

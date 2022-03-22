@@ -12,7 +12,7 @@ export const PROJECTS = [
 {
     "title": 'Charles Loyd Co.',
     "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "google.com",
+    "deployed": "https://www.google.com",
     "pic": Charles
 },
 {
@@ -24,7 +24,7 @@ export const PROJECTS = [
 {
     "title": 'Charles Loyd Co.',
     "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "google.com",
+    "deployed": "https://www.google.com",
     "pic": Charles
 },
 {
@@ -36,7 +36,7 @@ export const PROJECTS = [
 {
     "title": 'Charles Loyd Co.',
     "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "google.com",
+    "deployed": "https://www.google.com",
     "pic": Charles
 },
 {
@@ -48,7 +48,7 @@ export const PROJECTS = [
 {
     "title": 'Charles Loyd Co.',
     "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "google.com",
+    "deployed": "https://www.google.com",
     "pic": Charles
 },
 ];
