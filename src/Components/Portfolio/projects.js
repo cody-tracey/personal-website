@@ -1,6 +1,7 @@
 import fxMadness from "../../assets/functionMadness.PNG";
 import Charles from "../../assets/charlesLoyd.png";
 
+//MAKE SURE TO INCLUDE HTTP
 
 export const PROJECTS = [
 {
