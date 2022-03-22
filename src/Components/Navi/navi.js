@@ -5,7 +5,7 @@ const Navi = () => {
     return (
 
         <Navbar sticky="top"  className="nav-override">
-            {/* <Container > */}
+            <Container >
                 <Nav className="" as="ul">
                     <Nav.Item as="li" className="mr-2">
                         <Nav.Link as={Link} to='/bio' className='links'>Bio</Nav.Link>
@@ -17,7 +17,7 @@ const Navi = () => {
                         <Nav.Link as={Link} to="/portfolio" className='links'>Portfolio</Nav.Link>
                     </Nav.Item>
                 </Nav>
-            {/* </Container> */}
+            </Container>
         </Navbar>
 
     )
