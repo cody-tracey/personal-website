@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./Partials/constants";
+@import "./Partials/custom";
 
 body {
   background-image: url(../assets/images/background2.jpg);
@@ -19,6 +20,10 @@ code {
 
 .drop {
   margin-top: 40vh;
+}
+
+.drop-med {
+  margin-top: 30vh;
 }
 
 .drop-small {

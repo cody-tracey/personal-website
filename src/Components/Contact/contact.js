@@ -32,7 +32,7 @@ const Contact = () => {
 
 
     return (
-        <div className="drop">
+        <div className="drop-med">
             <Container className="main" >
                 <Row className='pt-2 pb-2'>
                     <Col className='text-center'>
@@ -68,7 +68,7 @@ const Contact = () => {
                     </Row>
                     <Row className='pt-2 pb-2'>
                         <Col xs={1}>
-                            <Button>Submit</Button>
+                            <Button variant="primary"><b>Submit</b></Button>
                         </Col>
                     </Row>
                 </Form>
