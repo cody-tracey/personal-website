@@ -2,12 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../../assets/profile.jpg'
 
+import Navi from '../Navi/navi';
+
 const Bio = () => {
     return (
-        <div className="drop-small">
-            <Container className="main">
-                <Row className='text-center'>
-                    <u><h1>About Me</h1></u>
+        <div className="">
+            <Navi />
+            <Container className="main drop-small">
+                <Row className='text-center pb-2'>
+                    <h1>ABOUT ME</h1>
                 </Row>
                 <Row>
                     <Col s={12} md={5} l={4} xl={4}>

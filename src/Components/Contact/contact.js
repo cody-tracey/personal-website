@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
 
+import Navi from '../Navi/navi';
+
 const Contact = () => {
 
     const [errors, setErrors] = useState({
@@ -32,8 +34,9 @@ const Contact = () => {
 
 
     return (
-        <div className="drop-med">
-            <Container className="main" >
+        <div className="">
+            <Navi />
+            <Container className="main drop-small" >
                 <Row className='pt-2 pb-2'>
                     <Col className='text-center'>
                         <h1>CONTACT ME</h1>

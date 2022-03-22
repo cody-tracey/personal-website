@@ -19,15 +19,15 @@ code {
 }
 
 .drop {
-  margin-top: 40vh;
+  margin-top: 35vh;
 }
 
-.drop-med {
-  margin-top: 30vh;
-}
+// .drop-med {
+//   margin-top: 25vh;
+// }
 
 .drop-small {
-  margin-top: 20vh;
+  margin-top: 15vh;
 }
 
 //Landing Page
@@ -58,9 +58,20 @@ code {
   text-align: justify;
 }
 
-
 //Portfolio
-.card-override{
+.card-override {
   color: $dark-shade;
   background-color: $light-shade;
+}
+
+//Navbar
+.nav-override {
+  background-color: $dark-shade;
+}
+
+nav .navbar-nav li a {
+  color: $light-accent !important;
+}
+nav .navbar-nav li a:hover {
+  color: $main-brand !important;
 }
