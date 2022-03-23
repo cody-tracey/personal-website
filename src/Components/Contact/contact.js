@@ -5,32 +5,42 @@ import Navi from '../Navi/navi';
 
 const Contact = () => {
 
-    const [errors, setErrors] = useState({
+    const [entry, setEntry] = useState({
         "name": "",
         "email": "",
         "message": ""
     });
-    // const [status, setStatus] = useState("Submit");
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-    //     setStatus("Sending...");
-    //     const { name, email, message } = e.target.elements;
-    //     let details = {
-    //         name: name.value,
-    //         email: email.value,
-    //         message: message.value,
-    //     };
-    // };
-    // let response = await fetch("http://localhost:5000/contact", {
-    //     method: "POST",
-    //     headers: {
-    //         "Content-Type": "application/json;charset=utf-8",
-    //     },
-    //     body: JSON.stringify(details),
-    // });
-    // setStatus("Submit");
-    // let result = await response.json();
 
+    const { name, email, message } = entry;
+
+    const handleOnChange = e => {
+        setEntry({ ...entry, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = e => {
+        e.preventDefault()
+
+        fetch('http://localhost:5000/send', {
+            method: "POST",
+            body: JSON.stringify(entry),
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+        }).then(res => res.json()).then(res => {
+            if (res.status === 'success') {
+                alert("Message Sent.")
+                setEntry({
+                    ...entry, 
+                    "name": "",
+                    "email": "",
+                    "message": ""
+                }); //Reset Form
+            } else if (res.status === 'fail') {
+                alert("Message failed to send.")
+            };
+        });
+    };
 
 
     return (
@@ -42,20 +52,18 @@ const Contact = () => {
                         <h1>CONTACT ME</h1>
                     </Col>
                 </Row>
-                <Form>
+                <Form onSubmit={handleSubmit}>
                     <Row className='pt-2 pb-2'>
                         <Col md={6} sm={12}>
                             <Form.Group>
                                 <Form.Label>Name:</Form.Label>
-                                <Form.Control type='text' placeholder='Name' />
-                                {errors.name ? <p>{errors.name}</p> : ""}
+                                <Form.Control type='text' placeholder='Name' value={name} onChange={handleOnChange} name='name' />
                             </Form.Group>
                         </Col>
                         <Col md={6} sm={12}>
                             <Form.Group>
                                 <Form.Label>Email:</Form.Label>
-                                <Form.Control type='email' placeholder='Email' />
-                                {errors.email ? <p>{errors.email}</p> : ""}
+                                <Form.Control type='email' placeholder='Email' value={email} onChange={handleOnChange} name='email' />
 
                             </Form.Group>
                         </Col>
@@ -64,14 +72,13 @@ const Contact = () => {
                         <Col>
                             <Form.Group>
                                 <Form.Label>Message:</Form.Label>
-                                <Form.Control as='textarea' rows={3} />
-                                {errors.message ? <p>{errors.message}</p> : ""}
+                                <Form.Control as='textarea' rows={3} value={message} onChange={handleOnChange} name='message' />
                             </Form.Group>
                         </Col>
                     </Row>
                     <Row className='pt-2 pb-2'>
                         <Col xs={1}>
-                            <Button variant="primary"><b>Submit</b></Button>
+                            <Button variant="primary" type="submit"><b>Submit</b></Button>
                         </Col>
                     </Row>
                 </Form>
