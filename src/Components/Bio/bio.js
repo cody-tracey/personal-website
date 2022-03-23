@@ -6,9 +6,9 @@ import Navi from '../Navi/navi';
 
 const Bio = () => {
     return (
-        <div className="">
+        <Container >
             <Navi />
-            <Container className="main drop-small">
+            <div className="main drop-small">
                 <Row className='text-center pb-2'>
                     <h1>ABOUT ME</h1>
                 </Row>
@@ -26,9 +26,8 @@ const Bio = () => {
                         </p>
                     </Col>
                 </Row>
-            </Container>
-        </div>
-
+            </div>
+        </Container>
     );
 };
 

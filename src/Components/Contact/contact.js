@@ -31,7 +31,7 @@ const Contact = () => {
             if (res.status === 'success') {
                 alert("Message Sent.")
                 setEntry({
-                    ...entry, 
+                    ...entry,
                     "name": "",
                     "email": "",
                     "message": ""
@@ -44,9 +44,9 @@ const Contact = () => {
 
 
     return (
-        <div className="">
+        <Container>
             <Navi />
-            <Container className="main drop-small" >
+            <div className="main drop-small">
                 <Row className='pt-2 pb-2'>
                     <Col className='text-center'>
                         <h1>CONTACT ME</h1>
@@ -82,9 +82,8 @@ const Contact = () => {
                         </Col>
                     </Row>
                 </Form>
-            </Container>
-        </div>
-
+            </div>
+        </Container>
     );
 }
 

@@ -6,10 +6,10 @@ import { PROJECTS } from './projects';
 
 const Portfolio = () => {
     return (
-        <div className="">
-        <Navi />
-            <Container className="main mt-5">
-                <Row className='text-center'><h1>PROJECTS</h1></Row>
+        <Container className='container-fluid'>
+            <Navi />
+            <div className="main">
+                <Row className='text-center mt-5'><h1>PORTFOLIO</h1></Row>
                 <Row>
                     {PROJECTS.map((i) => {
                         return (
@@ -20,9 +20,9 @@ const Portfolio = () => {
                     })
                     }
                 </Row>
+            </div>
+        </Container>
 
-            </Container>
-        </div>
     );
 };
 
