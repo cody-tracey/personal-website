@@ -9,6 +9,10 @@ body {
   color: $main-brand;
 }
 
+a:hover{
+  color:$dark-accent;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -22,19 +26,11 @@ code {
   margin-top: 35vh;
 }
 
-// .drop-med {
-//   margin-top: 25vh;
-// }
-
 .drop-small {
   margin-top: 15vh;
 }
 
 //Landing Page
-
-// .tagline{
-//   justify-items: center;
-// }
 
 .links {
   color: $light-shade;
@@ -57,6 +53,15 @@ code {
 .bio {
   text-align: justify;
 }
+
+.bio a{
+  color: $light-shade;
+}
+
+.icon{
+  color:$main-brand;
+}
+
 
 //Portfolio
 .card-override {
