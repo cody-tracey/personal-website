@@ -8,48 +8,16 @@ export const PROJECTS = [
     "title": 'CodeWars',
     "github": "https://github.com/cody-tracey/codewars",
     "deployed": "",
-    "pic": fxMadness
+    "pic": fxMadness,
+    'stack': 'ES6 Javascript',
+    'description': 'A collection of pure JS algorithms and problem solving.'
 },
 {
     "title": 'Charles Loyd Co.',
     "github": "https://github.com/cody-tracey/codewars",
     "deployed": "https://www.google.com",
-    "pic": Charles
-},
-{
-    "title": 'CodeWars',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "",
-    "pic": fxMadness
-},
-{
-    "title": 'Charles Loyd Co.',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "https://www.google.com",
-    "pic": Charles
-},
-{
-    "title": 'CodeWars',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "",
-    "pic": fxMadness
-},
-{
-    "title": 'Charles Loyd Co.',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "https://www.google.com",
-    "pic": Charles
-},
-{
-    "title": 'CodeWars',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "",
-    "pic": fxMadness
-},
-{
-    "title": 'Charles Loyd Co.',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "https://www.google.com",
-    "pic": Charles
+    "pic": Charles,
+    'stack': 'MERN + SASS',
+    'description': 'A portfolio business website for a local interior designer.'
 },
 ];

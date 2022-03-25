@@ -8,7 +8,7 @@ const Bio = () => {
     return (
         <Container >
             <Navi />
-            <div className="main drop-small">
+            <div className="main drop-small p-3">
                 <Row className='text-center pb-2'>
                     <h1>ABOUT ME</h1>
                 </Row>

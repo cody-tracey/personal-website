@@ -52,7 +52,7 @@ const Contact = () => {
                         <h1>CONTACT ME</h1>
                     </Col>
                 </Row>
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit} className="p-3">
                     <Row className='pt-2 pb-2'>
                         <Col md={6} sm={12}>
                             <Form.Group>
