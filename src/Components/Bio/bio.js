@@ -19,11 +19,11 @@ const Bio = () => {
                     </Col>
                     <Col s={12} md={7} l={8} xl={8}>
                         <p className='bio'>
-                            Hey, there my name is Cody (he/him) and thank you for checking me out! Originally from the Chicagoland area but moved to Nashville 10 years ago. I attended Carthage College where I double majored in Classical Studies and Religious Studies.
+                            Hey there, my name is Cody (he/him)! Thank you for checking out my work! Originally from the Chicagoland area, I attended Carthage College in Kenosha, Wisconsin, where I double majored in Classical Studies and Religious Studies. I moved to Nashville 10 years ago.
                             <br />
-                            Upon graduation I worked in as an Account Specialist at Card Market while attending Vanderbilt's Coding Bootcamp. After which I taught Web Development for a year as part of the <a href='https://perseverenow.org/' target='_blank' rel="noreferrer" ><b>PERSEVERE</b></a> program. Currently now I work as an IT Project Manager at Card Market, while moonlighting as a budding web developer (MERN).
+                            After graduating I worked as an Account Specialist at Card Market while attending Vanderbilt's Coding Bootcamp. After completing the bootcamp, I taught Web Development for a year as part of the <a href='https://perseverenow.org/' target='_blank' rel="noreferrer" ><b>PERSEVERE</b></a> program. Currently, I work as an IT Project Manager at Card Market, while moonlighting as a budding web developer (MERN).
                             <br />
-                            In my spare time I enjoy spoiling my dogs, lifting weights, crushing my enemies at Magic the Gathering, and playing Dungeons and Dragons.
+                            In my spare time, I enjoy spoiling my dogs, lifting weights, crushing my enemies at Magic the Gathering, and playing Dungeons & Dragons.
                         </p>
                         <p>
                             Check me out on social media:
