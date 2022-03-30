@@ -14,10 +14,10 @@ export const PROJECTS = [
 },
 {
     "title": 'Charles Loyd Co.',
-    "github": "https://github.com/cody-tracey/codewars",
-    "deployed": "https://www.google.com",
+    "github": "https://github.com/cody-tracey/charles-loyd",
+    "deployed": "https://cody-tracey.github.io/charles-loyd/",
     "pic": Charles,
-    'stack': 'MERN + SASS',
+    'stack': 'React',
     'description': 'A portfolio business website for a local interior designer.'
 },
 ];
