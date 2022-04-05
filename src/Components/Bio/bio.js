@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../../assets/profile.jpg'
+import cody from '../../assets/cody.jpg'
 import Navi from '../Navi/navi';
 
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
@@ -15,7 +16,7 @@ const Bio = () => {
                 </Row>
                 <Row>
                     <Col s={12} md={5} l={4} xl={4}>
-                        <img src={profile} alt='Cody Tracey - Developer Extraordinaire' className='img-fluid' id="profile-pic" />
+                        <img src={cody} alt='Cody Tracey - Developer Extraordinaire' className='img-fluid' id="profile-pic" />
                     </Col>
                     <Col s={12} md={7} l={8} xl={8}>
                         <p className='bio'>
