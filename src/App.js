@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //Components
 import Bio from "./Components/Bio/bio";
@@ -14,7 +14,7 @@ import './App.scss';
 
 const App = () => {
   return (
-    <Router baseline="/">
+    <Router>
       <Routes>
         <Route path='/' element={<Landing />} />
         <Route path='/bio' element={<Bio />} />
