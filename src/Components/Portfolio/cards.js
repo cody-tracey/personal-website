@@ -4,7 +4,7 @@ const Cards = props => {
         <Card className='card-override mt-2 mb-2'>
             <Card.Body >
                 <Card.Title>{props.title}</Card.Title>
-                <Card.Img variant="top" src={props.pic} />
+                <Card.Img variant="top" src={props.pic} alt={props.alt}/>
                 <p>Tech Stack: <b>{props.stack}</b></p>
                 <Card.Text>{props.description}</Card.Text>
                 <div className="d-grid gap-2 pt-2">

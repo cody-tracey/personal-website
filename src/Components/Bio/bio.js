@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import profile from '../../assets/profile.jpg'
+import { Helmet } from 'react-helmet';
 import cody from '../../assets/cody.jpg'
 import Navi from '../Navi/navi';
 
@@ -9,6 +9,21 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 const Bio = () => {
     return (
         <Container >
+            <Helmet>
+                <meta charset="utf-8" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1, 
+      shrink-to-fit=no"
+                />
+                <meta name="keyword" content="portfolio, javascript, developer, web developer, freelance,node.js,html5,css"></meta>
+                <meta property="og:title" content="Cody Tracey | Fullstack Web Developer" />
+                <meta property="og:description" content="Creative MERN fullstack web developer and expert problem solver" />
+                <meta property="og:url" content="https://codytracey.com" />
+                <meta property="og:type" content="website" />
+                <title>Cody's Bio</title>
+
+            </Helmet>
             <Navi />
             <div className="main drop-small p-3">
                 <Row className='text-center pb-2'>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 
 import Navi from '../Navi/navi';
 
@@ -45,6 +46,21 @@ const Contact = () => {
 
     return (
         <Container>
+            <Helmet>
+                <meta charset="utf-8" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1, 
+      shrink-to-fit=no"
+                />
+                <meta name="keyword" content="portfolio, javascript, developer, web developer, freelance,node.js,html5,css"></meta>
+                <meta property="og:title" content="Cody Tracey | Fullstack Web Developer" />
+                <meta property="og:description" content="Contact form to reach Cody Tracey" />
+                <meta property="og:url" content="https://codytracey.com" />
+                <meta property="og:type" content="website" />
+                <title>Cody's Contact Page</title>
+
+            </Helmet>
             <Navi />
             <div className="main drop-small">
                 <Row className='pt-2 pb-2'>
